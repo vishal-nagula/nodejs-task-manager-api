@@ -8,7 +8,7 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 /*USING ROUTER MODULE FOR ALL ROUTES*/
-
+console.log("here added")
 app.use(taskManagerRouters);
 
 /*TEST SERVER STATUS*/
